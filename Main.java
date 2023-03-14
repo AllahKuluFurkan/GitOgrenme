@@ -12,7 +12,7 @@ public class Main {
             System.out.println();
         }
         for (int i=input; i>0; i--) {
-            for (int k=i; k>0; k--){
+            for (int k=i-15; k>0; k--){
                 System.out.print(" ");
             }
             for (int j = i; j < input + 1; j++) {
